@@ -1,4 +1,4 @@
-# CLINAM - Climate Olkaria Geodetic Rift Experiment GNSS in Namibia
+# CLINAM - Climate and GNSS in Namibia Experiment
 
 minimal mistakes webpage setup for the CLINAM network. We host this locally on a Virtual Machine.
 
