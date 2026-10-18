@@ -120,7 +120,7 @@ ax[0].legend(prop={"size": 14})
 date_form = DateFormatter("%Y-%b")
 date_form.set_tzinfo(gettz("GMT"))
 ax[0].xaxis.set_major_formatter(date_form)
-ax[0].xaxis.set_major_locator(mdates.MonthLocator(interval=6))
+ax[0].xaxis.set_major_locator(mdates.MonthLocator(interval=3))
 ax[0].xaxis.set_minor_locator(mdates.MonthLocator(interval=1))
 ax1b = ax[1].twinx()
 lns1 = ax[1].errorbar(
@@ -166,7 +166,7 @@ lines, labels = ax[1].get_legend_handles_labels()
 lines2, labels2 = ax1b.get_legend_handles_labels()
 ax1b.legend(lines + lines2, labels + labels2, loc=0, prop={"size": 14})
 ax[1].xaxis.set_major_formatter(date_form)
-ax[1].xaxis.set_major_locator(mdates.MonthLocator(interval=6))
+ax[1].xaxis.set_major_locator(mdates.MonthLocator(interval=3))
 ax[1].xaxis.set_minor_locator(mdates.MonthLocator(interval=1))
 fg.suptitle(
     "%s (%s): temperature, pressure, and relative humidity"
