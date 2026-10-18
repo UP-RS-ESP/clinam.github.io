@@ -23,25 +23,6 @@ stations2:
     alt: OK05-OW730
     btn_label: "OK05 Well 730"
     url: '/ClimData/OK04_plot_Wet_Zen_2panels.png'
-  - image_path: /ClimData/OK06_plot_Wet_Zen_2panels.png
-    btn_label: "OK06 Well 52"
-    alt: OK06-OW52
-    url: '/ClimData/OK06_plot_Wet_Zen_2panels.png'
-  - image_path: /ClimData/OK07_plot_Wet_Zen_2panels.png
-    alt: OK07-KenGen-DinnerClub
-    btn_label: "OK07 KenGen Dinner Club"
-    url: '/ClimData/OK07_plot_Wet_Zen_2panels.png'
-stations3:
-  - image_path: /ClimData/OK08_plot_Wet_Zen_2panels.png
-    alt: OK08-Olomayiana
-    btn_label: "OK08 Olomayiana"
-    url: '/ClimData/OK08_plot_Wet_Zen_2panels.png'
-  - image_path: /ClimData/TUKN_plot_Wet_Zen_2panels.png
-    alt: TUKN-TechnicalUniversity
-    btn_label: "TUKN Technical University of Kenya, Nairobi"
-    url: '/ClimData/TUKN_plot_Wet_Zen_2panels.png'
-
-
 ---
 Click on figure label to enlarge. Data are updated monthly.
 
@@ -51,5 +32,4 @@ Click on figure label to enlarge. Data are updated monthly.
 
 {% include feature_row id="stations2" type=center%}
 
-{% include feature_row id="stations3" type=center%}
 

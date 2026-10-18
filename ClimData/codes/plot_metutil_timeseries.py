@@ -259,9 +259,7 @@ if __name__ == "__main__":
 
     # make one file per station with all data
     csv_files = [
-        "Olkaria_2024_G_all_stations.csv.bz2",
-        "Olkaria_2025_G_all_stations.csv.bz2",
-        "Olkaria_2026_G_all_stations.csv.bz2",
+        "Namibia_2026_G_all_stations.csv.bz2",
     ]
     dfs = [pd.read_csv(file) for file in csv_files]
     df = pd.concat(dfs, axis=0, ignore_index=False)

@@ -22,7 +22,7 @@ station_name_4chars = sys.argv[4]
 output_path = sys.argv[5]
 
 # testing purposes
-# data_path = "/raid/kenya/ogre/clim_data/ok01/"
+# data_path = "/raid/kenya/ogre/clim_data/nb01/"
 # station_name = "Olkaria 1 AU"
 # file_prefix = "01_Olkaria1AU"
 # station_name_4chars = "OK01"

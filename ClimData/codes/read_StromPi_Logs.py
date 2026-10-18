@@ -291,8 +291,8 @@ def plot_single_StromPiLog():
 
 log_paths = sys.argv[1]
 # log_paths = "/raid/kenya/ogre/prt_data"
-data_paths = "ok01,ok02,ok03,ok04,ok05,ok06,ok07,ok08,ok09,tukn"
-data_paths = "ok01,ok02,ok04,ok05,ok06,ok08,ok09,tukn"
+data_paths = "nb01,nb02,nb03,nb04,nb05,nb06,nb07,nb08,nb09,tukn"
+data_paths = "nb01,nb02,nb04,nb05,nb06,nb08,nb09,tukn"
 data_path_single = data_paths.split(",")
 station_name = []
 filelists = []

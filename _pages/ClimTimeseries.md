@@ -6,82 +6,23 @@ layout: splash
 entries_layout: grid
 classes: wide
 stations1:
-  - image_path: /ClimData/01_Olkaria1AU_TempP_last10days.png
-    alt: OK01-Olkaria1AU
-    url: '/ClimData/01_Olkaria1AU_TempP_last10days.png'
-    btn_label: "OK01 Olkaria 1AU"
-  - image_path: /ClimData/02_Geolab_TempP_last10days.png
-    alt: OK02-Geolab
-    btn_label: OK02 KenGen Geolab
+  - image_path: /ClimData/01_Sophienhof_TempP_last10days.png
+    alt: NB01-Sophienhof
+    url: '/ClimData/01_Sophienhof_TempP_last10days.png'
+    btn_label: "NB01 Sophienhof"
+  - image_path: /ClimData/02_Ongava_TempP_last10days.png
+    alt: NB02-Ongava
+    btn_label: NB02 Ongava
     url: '/ClimData/02_Geolab_TempP_last10days.png'
   - image_path: /ClimData/03_OW914_TempP_last10days.png
-    alt: OK03-OW914
-    btn_label: "OK03 Well 914"
+    alt: NB03-OW914
+    btn_label: "NB03 Well 914"
     url: '/ClimData/03_OW914_TempP_last10days.png'
 stations2:
-  - image_path: /ClimData/05_OW730_TempP_last10days.png
-    alt: OK05-OW730
-    btn_label: "OK05 Well 730"
-    url: '/ClimData/05_OW730_TempP_last10days.png'
-  - image_path: /ClimData/06_OW52_TempP_last10days.png
-    btn_label: "OK06 Well 52"
-    alt: OK06-OW52
-    url: '/ClimData/06_OW52_TempP_last10days.png'
-  - image_path: /ClimData/07_DinnerClub_TempP_last10days.png
-    alt: OK07-KenGen-DinnerClub
-    btn_label: "OK07 KenGen Dinner Club"
-    url: '/ClimData/07_DinnerClub_TempP_last10days.png'
-stations3:
-  - image_path: /ClimData/08_Olomayiana_TempP_last10days.png
-    alt: OK08-Olomayiana
-    btn_label: "OK08 Olomayiana"
-    url: '/ClimData/08_Olomayiana_TempP_last10days.png'
-  - image_path: /ClimData/09_Kinamba_TempP_last10days.png
-    alt: OK09-Kinamba
-    btn_label: "OK09 Kinamba - Naivasha"
-    url: '/ClimData/09_Kinamba_TempP_last10days.png'
-  - image_path: /ClimData/10_TUKN_TempP_last10days.png
-    alt: TUKN-TechnicalUniversity
-    btn_label: "TUKN Technical University of Kenya, Nairobi"
-    url: '/ClimData/10_TUKN_TempP_last10days.png'
-stations4:
-  - image_path: /ClimData/01_Olkaria1AU_TempP_all.png
-    alt: OK01-Olkaria1AU
-    url: '/ClimData/01_Olkaria1AU_TempP_all.png'
-    btn_label: "OK01 Olkaria 1AU"
-  - image_path: /ClimData/02_Geolab_TempP_all.png
-    btn_label: OK02 KenGen Geolab
-    url: '/ClimData/02_Geolab_TempP_all.png'
-  - image_path: /ClimData/03_OW914_TempP_all.png
-    alt: OK03-OW914
-    btn_label: "OK03 Well 914"
-    url: '/ClimData/03_OW914_TempP_all.png'
-stations5:
-  - image_path: /ClimData/05_OW730_TempP_all.png
-    alt: OK05-OW730
-    btn_label: "OK05 Well 730"
-    url: '/ClimData/05_OW730_TempP_all.png'
-  - image_path: /ClimData/06_OW52_TempP_all.png
-    btn_label: "OK06 Well 52"
-    alt: OK06-OW52
-    url: '/ClimData/06_OW52_TempP_all.png'
-  - image_path: /ClimData/07_DinnerClub_TempP_all.png
-    alt: OK07-KenGen-DinnerClub
-    btn_label: "OK07 KenGen Dinner Club"
-    url: '/ClimData/07_DinnerClub_TempP_all.png'
-stations6:
-  - image_path: /ClimData/08_Olomayiana_TempP_all.png
-    alt: OK08-Olomayiana
-    btn_label: "OK08 Olomayiana"
-    url: '/ClimData/08_Olomayiana_TempP_all.png'
-  - image_path: /ClimData/09_Kinamba_TempP_all.png
-    alt: OK09-Kinamba
-    btn_label: "OK09 Kinamba-Naivasha"
-    url: '/ClimData/09_Kinamba_TempP_all.png'
-  - image_path: /ClimData/10_TUKN_TempP_all.png
-    alt: TUKN-TechnicalUniversity
-    btn_label: "TUKN Technical University of Kenya, Nairobi"
-    url: '/ClimData/10_TUKN_TempP_all.png'
+  - image_path: /ClimData/04_OW730_TempP_last10days.png
+    alt: NB04-OW730
+    btn_label: "NB04 Well 730"
+    url: '/ClimData/04_OW730_TempP_last10days.png'
 ---
 
 Click on figure label to enlarge. Only last 10 days of data are shown.
@@ -89,15 +30,4 @@ Click on figure label to enlarge. Only last 10 days of data are shown.
 {% include feature_row id="stations1" type=center%}
 
 {% include feature_row id="stations2" type=center%}
-
-{% include feature_row id="stations3" type=center%}
-
-
-Click on figure label to enlarge. The entire time series is shown.
-
-{% include feature_row id="stations4" type=center%}
-
-{% include feature_row id="stations5" type=center%}
-
-{% include feature_row id="stations6" type=center%}
 
