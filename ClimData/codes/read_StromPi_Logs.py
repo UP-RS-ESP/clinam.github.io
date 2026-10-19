@@ -81,7 +81,7 @@ def plot_all_StromPiLog():
     end_time = end_time.replace(hour=23, minute=59, second=59, microsecond=0)
     ax.set_xlim([start_time, end_time])
     ax.set_title(
-        "10-day battery voltage history of OGRE network: %s to %s"
+        "10-day battery voltage history of CLINAM network: %s to %s"
         % (start_time.strftime("%Y-%m-%d"), end_time.strftime("%Y-%m-%d")),
         fontsize=16,
         fontweight="bold",
@@ -291,8 +291,8 @@ def plot_single_StromPiLog():
 
 log_paths = sys.argv[1]
 # log_paths = "/raid/kenya/ogre/prt_data"
-data_paths = "nb01,nb02,nb03,nb04,nb05,nb06,nb07,nb08,nb09,tukn"
-data_paths = "nb01,nb02,nb04,nb05,nb06,nb08,nb09,tukn"
+data_paths = "nb01,nb02,nb03,nb04"
+data_paths = "nb01,nb02,nb04,nb04"
 data_path_single = data_paths.split(",")
 station_name = []
 filelists = []
