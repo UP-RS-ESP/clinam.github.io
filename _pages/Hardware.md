@@ -16,7 +16,7 @@ All software was developed at the University of Potsdam.
 
 {% include figure popup=true image_path="/images/NB04_electric.jpg" alt="" caption="Station Mounting" %}
 
-{% include figure popup=true image_path="/images/NB04_antenna_electric_setup.jpg" al/t="" caption="Station installation at NB04." %}
+{% include figure popup=true image_path="/images/NB04_antenna_electric_setup.jpg" alt="" caption="Station installation at NB04." %}
 
 {% include figure popup=true image_path="/images/NB01_setup_team.jpg" alt="" caption="Team that setup station NB01 at Sophienhof." %}
 
