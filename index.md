@@ -16,7 +16,7 @@ header:
 
 The *Climate and GNSS in Namibia* (CLINAM) experiment is an advanced network of continuous GNSS (Global Navigation Satellite System) and meteorological stations situated within Namibia. Launched in March 2024, the network currently operates 4 active scientific stations strategically located in northern and southern Namibia.
 
-CLINAM is led by the University of Potsdam in collaboration with natural reserves.
+CLINAM is led by the University of Potsdam in collaboration with [Sophienhof](https://sophienhof-lodge.com/de/), the [Ongava Research Center](https://orc.eco/), and the [Gondwana Kalahari Anib](https://gondwana-collection.com/).
 
 **Core Scientific Objectives**
 - Atmospheric Water Vapor Sensing: Processing direct GNSS signals to quantify integrated water vapor (IWV) and reconstruct 3D atmospheric moisture transport dynamics.
@@ -27,5 +27,5 @@ CLINAM is led by the University of Potsdam in collaboration with natural reserve
 
 Contact [Bodo Bookhagen](mailto:bodo.bookhagen@uni-potsdam.de) with questions.
 
-![image](/images/3Logo_map_CLINAM.jpg)
+![image](/images/GNSS_Namibia.jpg)
 

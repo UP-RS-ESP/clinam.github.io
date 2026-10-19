@@ -11,8 +11,8 @@ stations1:
     btn_label: "NB01 Sophienhof"
     url: '/images/NB01.jpg'
   - image_path: /images/NB02.jpg
-    alt: NB02-Ongava
-    btn_label: NB02 Ongava
+    alt: NB02-Ongava Research Center
+    btn_label: NB02 Ongava Research Center
     url: '/images/NB02.jpg'
   - image_path: /images/NB03_.jpg
     alt: NB03-Farm
@@ -20,8 +20,8 @@ stations1:
     url: '/images/NB03_Farm.jpg'
 stations2:
   - image_path: /images/NB04.jpg
-    alt: NB04-Farm
-    btn_label: "NB04 Farm"
+    alt: NB04-Gondwana Kalahari Anib
+    btn_label: "NB04 Gondwana Kalahari Anib"
     url: '/images/NB04.jpg'
 
 ---
