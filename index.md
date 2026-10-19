@@ -14,9 +14,19 @@ header:
   caption: "Photo credit: [Bodo Bookhagen](https://bodobookhagen.github.io/)"
 ---
 
-![image-left](/images/GNSS_Namibia_logos.jpg){: .align-left} The *Climate and GNSS in Namibia* (CLINAM) experiment is an advanced network of continuous GNSS (Global Navigation Satellite System) and meteorological stations situated within Namibia. Launched in March 2026, the network currently operates 4 active scientific stations strategically located in northern and southern Namibia.
-
-CLINAM is led by the University of Potsdam in collaboration with [Sophienhof](https://sophienhof-lodge.com/de/), the [Ongava Research Center](https://orc.eco/), and the [Gondwana Kalahari Anib](https://gondwana-collection.com/).
+<div style="display: flex; align-items: flex-start; gap: 30px; margin-bottom: 2rem;">
+  <div style="flex: 0 0 35%;">
+    <img src="/images/GNSS_Namibia_logos.jpg" alt="GNSS Namibia Logos" style="width: 100%; height: auto;" />
+  </div>
+  <div style="flex: 1;">
+    <p style="margin-top: 0;">
+      The <em>Climate and GNSS in Namibia</em> (CLINAM) experiment is an advanced network of continuous GNSS (Global Navigation Satellite System) and meteorological stations situated within Namibia. Launched in March 2026, the network currently operates 4 active scientific stations strategically located in northern and southern Namibia.
+    </p>
+    <p>
+      CLINAM is led by the University of Potsdam in collaboration with <a href="https://sophienhof-lodge.com/de/">Sophienhof</a>, the <a href="https://orc.eco/">Ongava Research Center</a>, and the <a href="https://gondwana-collection.com/">Gondwana Kalahari Anib</a>.
+    </p>
+  </div>
+</div>
 
 **Core Scientific Objectives**
 - Atmospheric Water Vapor Sensing: Processing direct GNSS signals to quantify integrated water vapor (IWV) and reconstruct 3D atmospheric moisture transport dynamics.
