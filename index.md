@@ -27,5 +27,5 @@ CLINAM is led by the University of Potsdam in collaboration with [Sophienhof](ht
 
 Contact [Bodo Bookhagen](mailto:bodo.bookhagen@uni-potsdam.de) with questions.
 
-![image](/images/GNSS_Namibia.jpg)
+![image](/images/GNSS_Namibia_logos.jpg)
 
