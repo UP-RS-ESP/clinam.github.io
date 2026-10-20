@@ -96,15 +96,16 @@ df_all_1hour["T2_C_24h_rolling_average"] = df_all_1hour["T2_C"].rolling("24h").m
 fg, ax = plt.subplots(
     nrows=2, ncols=1, figsize=(12, 10), dpi=300, layout="constrained", sharex=True
 )
-ax[0].plot(
-    df_all_1hour.index,
-    df_all_1hour["T1_C_24h_rolling_average"],
-    marker="",
-    linestyle="-",
-    lw=0.5,
-    color="navy",
-    label="T1 (outside) 24-hr rolling mean",
-)
+if station_name_4chars != "NB04":
+    ax[0].plot(
+        df_all_1hour.index,
+        df_all_1hour["T1_C_24h_rolling_average"],
+        marker="",
+        linestyle="-",
+        lw=0.5,
+        color="navy",
+        label="Temperture 1 (outside the box) 24-hr rolling mean",
+    )
 ax[0].plot(
     df_all_1hour.index,
     df_all_1hour["T2_C_24h_rolling_average"],
@@ -112,7 +113,7 @@ ax[0].plot(
     marker="",
     lw=0.5,
     color="darkred",
-    label="T2 (inside) 24-hr rolling mean",
+    label="Temperture 2 (inside the box) 24-hr rolling mean",
 )
 ax[0].grid()
 ax[0].set_ylabel(r"Temperature ($^\circ$C)", fontsize=14, fontweight="bold")
@@ -190,29 +191,29 @@ df_all["P_hpa_30m_rolling_average"] = df_all["P_hpa"].rolling("30Min").mean()
 fg, ax = plt.subplots(
     nrows=2, ncols=1, figsize=(12, 10), dpi=300, layout="constrained", sharex=True
 )
-ax[0].errorbar(
-    x=df_all.index,
-    y=df_all["T1_C"],
-    yerr=df_all["T1_C_sd"],
-    linestyle="-",
-    marker="o",
-    ms=1,
-    lw=0.5,
-    color="navy",
-    label="Temperature 1 (outside-the-box sensor)",
-)
 if station_name_4chars != "NB04":
     ax[0].errorbar(
         x=df_all.index,
-        y=df_all["T2_C"],
-        yerr=df_all["T2_C_sd"],
-        linestyle="",
+        y=df_all["T1_C"],
+        yerr=df_all["T1_C_sd"],
+        linestyle="-",
         marker="o",
         ms=1,
         lw=0.5,
-        color="darkred",
-        label="Temperature 2 (inside-the-box sensor)",
+        color="navy",
+        label="Temperature 1 (outside the box)",
     )
+ax[0].errorbar(
+    x=df_all.index,
+    y=df_all["T2_C"],
+    yerr=df_all["T2_C_sd"],
+    linestyle="",
+    marker="o",
+    ms=1,
+    lw=0.5,
+    color="darkred",
+    label="Temperature 2 (inside the box)",
+)
 ax[0].grid()
 ax[0].set_ylabel(r"Temperature ($^\circ$C)", fontsize=14, fontweight="bold")
 ax[0].legend(prop={"size": 14})
