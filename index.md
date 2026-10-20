@@ -14,7 +14,7 @@ header:
   caption: "Photo credit: [Bodo Bookhagen](https://bodobookhagen.github.io/)"
 ---
 
-![image-left](/images/logo_size.png){: .align-left}  **Core Scientific Objectives**
+![image-left](/images/GNSS_Namibia_logos.jpg){: .align-left}  **Core Scientific Objectives**
 - Atmospheric Water Vapor Sensing: Processing direct GNSS signals to quantify integrated water vapor (IWV) and reconstruct 3D atmospheric moisture transport dynamics.
 - GNSS Reflectometry (GNSS-R) & Hydrology: Leveraging reflected GNSS signals to perform high-resolution monitoring of surface soil moisture and near-surface hydrological processes.
 - InSAR Atmospheric Corrections: Utilizing high-density water-vapor observations to eliminate tropospheric noise and refine InSAR surface displacement measurements across the Olkaria Geothermal Complex.
