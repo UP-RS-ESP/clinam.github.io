@@ -31,7 +31,7 @@ CLINAM is led by the University of Potsdam in collaboration with [Sophienhof](ht
 - Hydrologic Deformation: Tracking sub-centimeter ground motion to better characterize subsurface hydrological dynamics.
 - In-Situ Meteorological Observations: Recording continuous, high-frequency weather variables—including air temperature, barometric pressure, and relative humidity—to analyze localized microclimates and storm dynamics.
 
-Contact [Bodo Bookhagen](mailto:bodo.bookhagen@uni-potsdam.de) or [Niels Blaum](mailto:niels.blaum@uni-potsdam.de) with questions.
+Contact [Bodo Bookhagen](mailto:bodo.bookhagen@uni-potsdam.de) or [Niels Blaum](mailto:niels.blaum@uni-potsdam.de) or [Katja Geissler](mailto:katja.geissler@uni-potsdam.de) with questions.
   </div>
 
 </div>
