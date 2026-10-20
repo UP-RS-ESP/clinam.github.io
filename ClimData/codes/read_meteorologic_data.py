@@ -96,7 +96,7 @@ df_all_1hour["T2_C_24h_rolling_average"] = df_all_1hour["T2_C"].rolling("24h").m
 fg, ax = plt.subplots(
     nrows=2, ncols=1, figsize=(12, 10), dpi=300, layout="constrained", sharex=True
 )
-if station_name_4chars != "NB04":
+if station_name_4chars.lower() != "nb04":
     ax[0].plot(
         df_all_1hour.index,
         df_all_1hour["T1_C_24h_rolling_average"],
@@ -191,7 +191,7 @@ df_all["P_hpa_30m_rolling_average"] = df_all["P_hpa"].rolling("30Min").mean()
 fg, ax = plt.subplots(
     nrows=2, ncols=1, figsize=(12, 10), dpi=300, layout="constrained", sharex=True
 )
-if station_name_4chars != "NB04":
+if station_name_4chars.lower() != "nb04":
     ax[0].errorbar(
         x=df_all.index,
         y=df_all["T1_C"],
