@@ -199,19 +199,20 @@ ax[0].errorbar(
     ms=1,
     lw=0.5,
     color="navy",
-    label="T1 (outside)",
+    label="Temperature 1 (outside-the-box sensor)",
 )
-ax[0].errorbar(
-    x=df_all.index,
-    y=df_all["T2_C"],
-    yerr=df_all["T2_C_sd"],
-    linestyle="",
-    marker="o",
-    ms=1,
-    lw=0.5,
-    color="darkred",
-    label="T2 (inside)",
-)
+if station_name_4chars != "NB04":
+    ax[0].errorbar(
+        x=df_all.index,
+        y=df_all["T2_C"],
+        yerr=df_all["T2_C_sd"],
+        linestyle="",
+        marker="o",
+        ms=1,
+        lw=0.5,
+        color="darkred",
+        label="Temperature 2 (inside-the-box sensor)",
+    )
 ax[0].grid()
 ax[0].set_ylabel(r"Temperature ($^\circ$C)", fontsize=14, fontweight="bold")
 ax[0].legend(prop={"size": 14})
