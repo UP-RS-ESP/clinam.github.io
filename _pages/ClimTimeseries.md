@@ -13,7 +13,7 @@ stations1:
   - image_path: /ClimData/02_Ongava_TempP_last10days.png
     alt: NB02-Ongava
     btn_label: "NB02 Ongava Research Center"
-    url: '/ClimData/02_Geolab_TempP_last10days.png'
+    url: '/ClimData/02_Ongava_TempP_last10days.png'
   - image_path: /ClimData/03_Farm_TempP_last10days.png
     alt: NB03-Farm
     btn_label: "NB03 Farm"
