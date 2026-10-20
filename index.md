@@ -18,9 +18,9 @@ The *Climate and GNSS in Namibia* (CLINAM) experiment is an advanced network of 
 
 CLINAM is led by the University of Potsdam in collaboration with [Sophienhof](https://sophienhof-lodge.com/de/), the [Ongava Research Center](https://orc.eco/), and the [Gondwana Kalahari Anib](https://gondwana-collection.com/).
 
-<div markdown="1" style="display: flex; align-items: flex-start; gap: 30px; margin-bottom: 2rem;">
+<div style="display: flex; align-items: flex-start; gap: 30px; margin-bottom: 2rem;">
   
-  <div markdown="1" style="flex: 0 0 35%;">
+  <div style="flex: 0 0 35%;">
     <img src="/images/GNSS_Namibia_logos.jpg" alt="GNSS Namibia Logos" style="width: 100%; height: auto;" />
   </div>
   <div markdown="1" style="flex: 1;">
