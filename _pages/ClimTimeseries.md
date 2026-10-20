@@ -19,10 +19,10 @@ stations1:
     btn_label: "NB03 Farm"
     url: '/ClimData/03_Farm_TempP_last10days.png'
 stations2:
-  - image_path: /ClimData/04_Anib_TempP_last10days.png
+  - image_path: /ClimData/04_Gondwana_TempP_last10days.png
     alt: NB04-Gondwana
     btn_label: "NB04 Gondwana Kalahari Anib"
-    url: '/ClimData/04_Anib_TempP_last10days.png'
+    url: '/ClimData/04_Gondwana_TempP_last10days.png'
 ---
 
 Click on figure label to enlarge. Only last 10 days of data are shown.
