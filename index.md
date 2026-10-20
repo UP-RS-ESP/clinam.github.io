@@ -20,7 +20,7 @@ CLINAM is led by the University of Potsdam in collaboration with [Sophienhof](ht
 
 <div style="display: flex; align-items: flex-start; gap: 30px; margin-bottom: 2rem;">
   
-  <div style="flex: 0 0 35%;">
+  <div style="flex: 0 0 40%;">
     <img src="/images/GNSS_Namibia_logos.jpg" alt="GNSS Namibia Logos" style="width: 100%; height: auto;" />
   </div>
   <div markdown="1" style="flex: 1;">
