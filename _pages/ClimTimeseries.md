@@ -12,17 +12,17 @@ stations1:
     btn_label: "NB01 Sophienhof"
   - image_path: /ClimData/02_Ongava_TempP_last10days.png
     alt: NB02-Ongava
-    btn_label: NB02 Ongava
+    btn_label: "NB02 Ongava Research Center"
     url: '/ClimData/02_Geolab_TempP_last10days.png'
-  - image_path: /ClimData/03_OW914_TempP_last10days.png
-    alt: NB03-OW914
-    btn_label: "NB03 Well 914"
-    url: '/ClimData/03_OW914_TempP_last10days.png'
+  - image_path: /ClimData/03_Farm_TempP_last10days.png
+    alt: NB03-Farm
+    btn_label: "NB03 Farm"
+    url: '/ClimData/03_Farm_TempP_last10days.png'
 stations2:
-  - image_path: /ClimData/04_OW730_TempP_last10days.png
-    alt: NB04-OW730
-    btn_label: "NB04 Well 730"
-    url: '/ClimData/04_OW730_TempP_last10days.png'
+  - image_path: /ClimData/04_Anib_TempP_last10days.png
+    alt: NB04-Gondwana
+    btn_label: "NB04 Gondwana Kalahari Anib"
+    url: '/ClimData/04_Anib_TempP_last10days.png'
 ---
 
 Click on figure label to enlarge. Only last 10 days of data are shown.
