@@ -14,10 +14,10 @@ stations1:
     alt: NB02-Ongava
     btn_label: "NB02 Ongava Research Center"
     url: '/ClimData/02_Ongava_TempP_last10days.png'
-  - image_path: /ClimData/03_Farm_TempP_last10days.png
-    alt: NB03-Farm
-    btn_label: "NB03 Farm"
-    url: '/ClimData/03_Farm_TempP_last10days.png'
+  - image_path: /ClimData/03_Olifantshoek_TempP_last10days.png
+    alt: NB03-Olifantshoek
+    btn_label: "NB03 Olifantshoek"
+    url: '/ClimData/03_Olifantshoek_TempP_last10days.png'
 stations2:
   - image_path: /ClimData/04_Gondwana_TempP_last10days.png
     alt: NB04-Gondwana

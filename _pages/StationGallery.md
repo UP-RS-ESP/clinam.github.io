@@ -14,10 +14,10 @@ stations1:
     alt: NB02-Ongava Research Center
     btn_label: NB02 Ongava Research Center
     url: '/images/NB02.jpg'
-  - image_path: /images/NB03_.jpg
-    alt: NB03-Farm
-    btn_label: "NB03 Farm"
-    url: '/images/NB03_Farm.jpg'
+  - image_path: /images/Olifantshoek_.jpg
+    alt: NB03-Olifantshoek
+    btn_label: "NB03 Olifantshoek"
+    url: '/images/NB03_Olifantshoek.jpg'
 stations2:
   - image_path: /images/NB04.jpg
     alt: NB04-Gondwana Kalahari Anib

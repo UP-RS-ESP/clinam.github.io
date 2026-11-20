@@ -10,7 +10,7 @@ cd /raid/namibia/clinam.github.io/ClimData/
 python3 /raid/namibia/clinam.github.io/ClimData/codes/read_meteorologic_data.py /raid/namibia/clinam/clim_data/nb02/ "Ongava Research Center" 02_Ongava nb02 /raid/namibia/clinam.github.io/ClimData/
 
 cd /raid/namibia/clinam.github.io/ClimData/
-python3 /raid/namibia/clinam.github.io/ClimData/codes/read_meteorologic_data.py /raid/namibia/clinam/clim_data/nb03/ "Farm" 03_Farm nb03 /raid/namibia/clinam.github.io/ClimData/
+python3 /raid/namibia/clinam.github.io/ClimData/codes/read_meteorologic_data.py /raid/namibia/clinam/clim_data/nb03/ "Olifantshoek" 03_Olifantshoek nb03 /raid/namibia/clinam.github.io/ClimData/
 
 cd /raid/namibia/clinam.github.io/ClimData/
 python3 /raid/namibia/clinam.github.io/ClimData/codes/read_meteorologic_data.py /raid/namibia/clinam/clim_data/nb04/ "Gondwana Kalahari Anib" 04_Gondwana nb04 /raid/namibia/clinam.github.io/ClimData/
